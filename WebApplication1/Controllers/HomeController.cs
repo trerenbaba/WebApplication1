@@ -15,6 +15,7 @@ namespace WebApplication1.Controllers
         // GET: Home
         public ActionResult Index()
         {
+
             DatabaseContext db = new DatabaseContext();
             db.Books.ToList(); //Bu kod çalıştığı anda databasecontext tetikleniyor db oluşuyor.
 
